@@ -47,8 +47,8 @@ class Splash extends StatelessWidget {
                     fixedSize: Size(350, 20),
                     padding: EdgeInsets.all(5.0)),
                 onPressed: () {},
-                child: Text('Я хочу зарегистрироваться',
-                    style: TextStyle(fontSize: 22)),
+                child:
+                    Text('У меня есть аккаунт', style: TextStyle(fontSize: 22)),
               ),
             ),
             Positioned(
@@ -59,6 +59,7 @@ class Splash extends StatelessWidget {
                 Column(mainAxisAlignment: MainAxisAlignment.center, children: [
                   Text(
                     'Добро пожаловать в ОКО',
+                    textAlign: TextAlign.center,
                     style: TextStyle(
                       fontSize: 25,
                       color: Colors.black,
@@ -66,14 +67,8 @@ class Splash extends StatelessWidget {
                     ),
                   ),
                   Text(
-                    'Мы поможем сделать',
-                    style: TextStyle(
-                      fontSize: 15,
-                      color: Colors.black,
-                    ),
-                  ),
-                  Text(
-                    'ваш взор яснее',
+                    'Мы поможем сделать \n ваш взор яснее',
+                    textAlign: TextAlign.center,
                     style: TextStyle(
                       fontSize: 15,
                       color: Colors.black,
